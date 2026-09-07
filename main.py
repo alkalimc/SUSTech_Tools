@@ -43,7 +43,7 @@ head = {
 COURSE_TYPE = {'bxxk': "通识必修选课", 'xxxk': "通识选修选课", "kzyxk": '培养方案内课程',
                "zynknjxk": '非培养方案内课程', "cxxk": '重修选课', "jhnxk": '计划内选课新生'}
 
-TIMEOUT = 0.8 # 请求间隔，保持每秒最多一次提交
+TIMEOUT = 1.0 # 请求间隔，保持每秒最多一次提交
 REQUEST_TIMEOUT = 15
 
 course_list = []  # 需要喵的课程队列
